@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="549.0" prefWidth="515.0" style="-fx-background-color: #55F;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.d3bug.countdown.view.CountdownSolverController">
+   <children>
+      <Button fx:id="solveButton" layoutX="23.0" layoutY="178.0" mnemonicParsing="false" text="Solve" />
+      <Label layoutX="191.0" layoutY="97.0" text="Target" textFill="#f7ff08" />
+      <TextField fx:id="n1" alignment="CENTER" layoutX="30.0" layoutY="22.0" prefHeight="51.0" prefWidth="60.0" promptText="1st" style="-fx-background-color: #00F; -fx-text-fill: #FFF;" styleClass="number">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+      <TextField fx:id="n2" alignment="CENTER" layoutX="105.0" layoutY="22.0" prefHeight="51.0" prefWidth="60.0" promptText="2nd" style="-fx-background-color: #00F; -fx-text-fill: #FFF;" styleClass="number">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+      <TextField fx:id="n3" alignment="CENTER" layoutX="182.0" layoutY="22.0" prefHeight="51.0" prefWidth="60.0" promptText="3rd" style="-fx-background-color: #00F; -fx-text-fill: #FFF;" styleClass="number">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="n4" alignment="CENTER" layoutX="257.0" layoutY="22.0" prefHeight="51.0" prefWidth="60.0" promptText="4th" style="-fx-background-color: #00F; -fx-text-fill: #FFF;" styleClass="number">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="n5" alignment="CENTER" layoutX="332.0" layoutY="22.0" prefHeight="51.0" prefWidth="60.0" promptText="5th" style="-fx-background-color: #00F; -fx-text-fill: #FFF;" styleClass="number">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="n6" alignment="CENTER" layoutX="409.0" layoutY="22.0" prefHeight="51.0" prefWidth="60.0" promptText="6th" style="-fx-background-color: #00F; -fx-text-fill: #FFF;" styleClass="number">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="target" alignment="CENTER" layoutX="189.0" layoutY="120.0" prefHeight="51.0" prefWidth="138.0" promptText="Target" style="-fx-background-color: #000; -fx-text-fill: #FF0;" styleClass="target">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+      <ListView fx:id="output" layoutX="-1.0" layoutY="214.0" prefHeight="335.0" prefWidth="517.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="214.0" />
+   </children>
+</AnchorPane>
